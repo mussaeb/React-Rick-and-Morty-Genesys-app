@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Rick and Morty Character Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Rick and Morty Character Explorer is a Single Page App built using React that allows users to explore characters from the popular TV show "Rick and Morty". The app retrieves character data from the Rick & Morty API and displays it in a table on the home page. Users can search for characters, view their profiles, and navigate back to the main table.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- View a table of characters with avatar, name, species, and status information
+- Search for characters by name using search input field
+- Click on a character's name to view their profile
+- Navigate back to the main table from the profile page
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: JavaScript library for building user interfaces
+- TypeScript: Typed superset of JavaScript
+- React Router: Library for handling routing(navigation) in a React application
+- Material-UI: UI component library for React
+- Axios: Promise-based HTTP client for making API requests
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Getting Started
 
-### `npm test`
+To get a local copy of the project up and running, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   `git clone https://github.com/mussaeb/React-Rick-and-Morty-Genesys-app.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    `cd genesys-app`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+    In the project directory, you can run:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    `npm install`
+    
+4. Start the development server:
+    
+    `npm start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Runs the app in the development mode.\
+    Open your browser and visit `http://localhost:3000` to view the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    The page will reload if you make edits.\
+    You will also see any lint errors in the console.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. Launche the test runner in the interactive watch mode.\
 
-## Learn More
+    `npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Structure
+
+The project structure is as follows:
+
+- `src`: Contains the source code of the application
+- `components`: Contains the React components
+- `pages`: Contains the different pages of the application
+- `App.tsx`: Entry point of the application
+- `index.tsx`: Renders the root component and mounts it to the DOM
+
